@@ -1,0 +1,41 @@
+/* Page details */
+html{
+  margin:10px;
+  text-decoration: none;
+}
+body{
+  min-width: 400px;
+  width: auto !important;
+  width: 400px;
+  text-decoration: none;
+}
+  /* Images */
+  .reactLogo{
+    cursor:pointer;
+  }
+  img{
+    max-width: 500px;
+  }
+  .picture1{
+    background-color: gray;
+    opacity: 0.5;
+    z-index: 1;
+    position: absolute;
+    right:650px;
+    top:250px;
+    width: auto;
+    max-width: 500px;
+  }
+  /* Gallery */
+  form{
+    max-width:400px;
+    width: auto;
+  }
+  .flex-gallery{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    min-width: 400px;
+    width: auto !important;
+  }
+  
+  
